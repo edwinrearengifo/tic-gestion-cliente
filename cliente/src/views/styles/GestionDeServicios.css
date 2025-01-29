@@ -1,0 +1,163 @@
+/* Contenedor general */
+.gestionServicios {
+    padding: 20px;
+  }
+  
+  /* Título principal */
+  .mainTitle {
+    color: #2f3b52;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Sección de servicios actuales */
+  .servicesSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .servicesTableContainer {
+    width: 70%;
+  }
+  
+  .servicesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .servicesTable th, .servicesTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .servicesTable th {
+    background-color: #3b4a68;
+    color: white;
+  }
+  
+  .servicesTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .servicesTable tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .totalValueContainer {
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .totalValueContainer h2 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .totalValueContainer p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f3b52;
+  }
+  
+  /* Sección de configuración de servicios */
+  .servicesConfigSection {
+    margin-top: 20px;
+  }
+  
+  .configButtons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .addServiceButton, .editServiceButton, .deleteServiceButton {
+    background-color: #2f3b52;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .addServiceButton:hover {
+    background-color: #ff5f57;
+  }
+  
+  .editServiceButton:hover {
+    background-color: #3b4a68;
+  }
+  
+  .deleteServiceButton:hover {
+    background-color: #e04e4c;
+  }
+  
+  /* Formulario de detalles del servicio */
+  .serviceDetailsForm {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .acceptButton {
+    background-color: #2f3b52;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .acceptButton:hover {
+    background-color: #ff5f57;
+  }
+  
+  .cancelButton {
+    background-color: #e04e4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background-color: #c0392b;
+  }
+  

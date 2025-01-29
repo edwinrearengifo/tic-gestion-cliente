@@ -1,0 +1,175 @@
+.alicuotasResidente {
+    padding: 20px;
+}
+
+.mainTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detailsContainer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.summaryBox {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff5f57;
+    margin: 10px 0;
+}
+
+.dueDate,
+.status {
+    margin: 5px 0;
+}
+
+.statusComplete {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.imageBox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.houseImage {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cuadro blanco que contiene el título y la tabla */
+.servicesSection {
+    display: flex;
+    flex-direction: column; /* Apila los divs verticalmente */
+    justify-content: space-between; /* Asegura que los divs no se solapen */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servicesHeader {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente si es necesario */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.servicesTitle {
+    font-size: 20px;
+    color: #2f3b52;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/* Contenedor de la tabla */
+.servicesBody {
+    width: 100%;
+    text-align: center;
+}
+
+/* Tabla de servicios */
+.servicesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.servicesTable th,
+.servicesTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.servicesTable th {
+    background-color: #2f3b52;
+    color: white;
+}
+
+.servicesTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.servicesTable tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Sección de historial de pagos */
+.historialPagosSection {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historialPagosSection h2 {
+    color: #2f3b52;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pagosTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pagosTable th,
+.pagosTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+.pagosTable th {
+    background-color: #3b4a68;
+    color: white;
+}
+
+.pagosTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pagosTable tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+.houseImage {
+    width: 500px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra suave */
+    margin: 10px 0; /* Añade un margen vertical */
+  }
+  
+  

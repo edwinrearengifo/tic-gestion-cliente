@@ -1,0 +1,139 @@
+/* Contenedor general */
+.gestionViviendas {
+    padding: 20px;
+  }
+  
+  /* Título principal */
+  .mainTitle {
+    color: #2f3b52;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Lista de viviendas */
+  .housesSection {
+    margin-bottom: 20px;
+  }
+  
+  .housesListContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .housesListContainer h2 {
+    font-size: 18px;
+    color: #2f3b52;
+    margin-bottom: 10px;
+  }
+  
+  .housesList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .housesList li {
+    font-size: 16px;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .housesList li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Configuración de viviendas */
+  .housesConfigSection {
+    margin-top: 20px;
+  }
+  
+  .configButtons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .addHouseButton, .editHouseButton, .deleteHouseButton {
+    background-color: #2f3b52;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .addHouseButton:hover {
+    background-color: #ff5f57;
+  }
+  
+  .editHouseButton:hover {
+    background-color: #3b4a68;
+  }
+  
+  .deleteHouseButton:hover {
+    background-color: #e04e4c;
+  }
+  
+  /* Formulario de detalles de vivienda */
+  .houseDetailsForm {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .formGroup input, .formGroup select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .acceptButton {
+    background-color: #2f3b52;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .acceptButton:hover {
+    background-color: #ff5f57;
+  }
+  
+  .cancelButton {
+    background-color: #e04e4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background-color: #c0392b;
+  }
+  

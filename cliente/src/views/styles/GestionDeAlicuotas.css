@@ -1,0 +1,440 @@
+
+/* Contenedor general */
+.gestion-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h2 {
+  color: #2f3b52;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Sección de residentes */
+.residentes-table-container {
+  margin-bottom: 20px;
+}
+
+.residentes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.residentes-table th,
+.residentes-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.residentes-table th {
+  background-color: #3b4a68;
+  color: white;
+}
+
+.residentes-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.residentes-table tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+/* Sección de información del residente y alícuota */
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.residente-info, .valor-alicuota {
+  flex: 1;
+  padding: 15px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.residente-info h3,
+.valor-alicuota h3 {
+  color: #2f3b52;
+  margin-bottom: 10px;
+}
+
+.valor-alicuota p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Botones de acción */
+.buttons button {
+  margin-right: 10px;
+  background-color: #2f3b52;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #ff5f57;
+  transform: scale(1.05);
+}
+
+/* Sección de pago */
+.payment-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.registrar-pago, .detalles-pago {
+  flex: 1;
+  padding: 15px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registrar-pago h3,
+.detalles-pago h3 {
+  color: #2f3b52;
+  margin-bottom: 10px;
+}
+
+/* Formulario de pago */
+.pago-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.pago-form select,
+.pago-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botones del formulario de pago */
+.payment-buttons button {
+  background-color: #2f3b52;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 120px;
+}
+
+.payment-buttons button:hover {
+  background-color: #ff5f57;
+  transform: scale(1.05);
+}
+
+.payment-buttons button:last-child {
+  background-color: #e04e4c;
+}
+
+.payment-buttons button:last-child:hover {
+  background-color: #c0392b;
+}
+
+/* Historial de pagos */
+.historial-pagos {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historial-pagos h3 {
+  color: #2f3b52;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.pagos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pagos-table th,
+.pagos-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.pagos-table th {
+  background-color: #3b4a68;
+  color: white;
+}
+
+.pagos-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pagos-table tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+/* Sección Modificar Pago */
+.modificar-pago-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: flex-start; /* Alinear al inicio */
+}
+
+.modificar-pago-form-section {
+  flex: 2; /* Reduce un poco el ancho del formulario */
+}
+
+/* Título de la sección */
+.modificar-pago-form-section h3 {
+  color: #2f3b52;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.modificar-pago-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.modificar-pago-form label {
+  font-size: 14px;
+  color: #555;
+  width: 100%;
+}
+
+.modificar-pago-form select,
+.modificar-pago-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Botones */
+.modificar-pago-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modificar-pago-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background-color: #2f3b52;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.modificar-pago-buttons button:hover {
+  background-color: #ff5f57;
+  transform: scale(1.05);
+}
+
+.modificar-pago-buttons .cancelar-button {
+  background-color: #e04e4c;
+}
+
+.modificar-pago-buttons .cancelar-button:hover {
+  background-color: #c0392b;
+}
+
+/* Detalles del Pago */
+.detalles-pago-section {
+  flex: 1.5; /* Aumenta el ancho del cuadro de detalles */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detalles-pago-section h3 {
+  font-size: 20px;
+  color: #2f3b52;
+  margin-bottom: 10px;
+}
+
+.detalles-pago-section p {
+  font-size: 14px;
+  color: #555;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Estilo para los botones "Seleccionar" de la tabla de residentes */
+.residentes-table .select-button {
+  background-color: #2f3b52; /* Mismo color que los botones de "Registrar Pago" */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.residentes-table .select-button:hover {
+  background-color: #ff5f57; /* Hover similar a los botones de acción */
+  transform: scale(1.05);
+}
+
+/* Estilo para campos de formulario */
+.pago-form input[type="number"],
+.pago-form input[type="text"],
+.pago-form select {
+  width: calc(100% - 10px); /* Igualar el tamaño al resto */
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Espaciado entre botones de confirmar y cancelar */
+.payment-buttons button {
+  margin-right: 10px; /* Espaciado entre botones */
+}
+/* Estilo general para las secciones de detalles */
+.detalles-pago {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos centrados */
+.detalles-pago h3,
+.detalles-pago h4 {
+  color: #2f3b52;
+  font-size: 20px;
+  margin-bottom: 15px;
+  
+}
+
+/* Líneas separadoras */
+.separator {
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Textos dentro del cuadro */
+.detalles-pago p {
+  font-size: 14px;
+  color: #555;
+  
+}
+
+/* Mensajes dinámicos */
+.detalles-pago p[style*="color: red"] {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.detalles-pago p[style*="color: green"] {
+  font-size: 14px;
+  font-weight: bold;
+}
+.estado-pago {
+  display: flex;
+  align-items: center; /* Centra verticalmente texto e imagen */
+  gap: 10px; /* Espaciado entre el texto y la imagen */
+}
+
+.estado-img {
+  width: 100px; /* Tamaño pequeño para la imagen */
+  
+}
+
+/* General input styles */
+.buscar-pago-form select,
+.buscar-pago-form input[type="number"] {
+  
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Align the labels and inputs */
+.buscar-pago-form label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Styling buttons in the form */
+.buscar-pago-form button {
+  background-color: #2f3b52;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 10px; /* Separación entre botones */
+}
+
+.buscar-pago-form button:hover {
+  background-color: #ff5f57;
+  transform: scale(1.05);
+}
+
+/* Ensure form alignment */
+.buscar-pago-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}

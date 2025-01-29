@@ -1,0 +1,89 @@
+/* Contenedor general */
+.filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .filters label {
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filters select {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Título principal */
+  h1.mainTitle {
+    color: #2f3b52;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Tabla de Resumen */
+  .tableContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .summaryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .summaryTable th, .summaryTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .summaryTable th {
+    background-color: #3b4a68;
+    color: white;
+  }
+  
+  .summaryTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .summaryTable tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buscar-button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .buscar-button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: #2f3b52;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .buscar-button-container button:hover {
+    background-color: #ff5f57;
+    transform: scale(1.05);
+  }
+  

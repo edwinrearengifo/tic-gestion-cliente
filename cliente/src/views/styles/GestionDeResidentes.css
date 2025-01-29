@@ -1,0 +1,222 @@
+/* Contenedor general */
+.gestionResidentes {
+  padding: 20px;
+}
+
+/* Título principal */
+.mainTitle {
+  color: #2f3b52;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Tabla de residentes */
+.residentsSection {
+  margin-bottom: 20px;
+}
+
+.residentsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.residentsTable th,
+.residentsTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.residentsTable th {
+  background-color: #3b4a68;
+  color: white;
+}
+
+.residentsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.residentsTable tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+/* Configuración de residentes */
+.residentsConfigSection {
+  margin-top: 20px;
+}
+
+.configButtons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Botones principales */
+.addResidentButton,
+.editResidentButton,
+.deleteResidentButton {
+  background-color: #2f3b52; /* Fondo inicial */
+  color: white; /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.addResidentButton:hover {
+  background-color: #ff5f57; /* Fondo al pasar el mouse */
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+.editResidentButton:hover {
+  background-color: #3b4a68;
+  transform: scale(1.05);
+}
+
+.deleteResidentButton:hover {
+  background-color: #e04e4c;
+  transform: scale(1.05);
+}
+
+
+/* Formulario de detalles del residente */
+.residentDetailsForm {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  font-size: 14px;
+  color: #555;
+}
+
+.formGroup input,
+.formGroup select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buscador */
+.residentDetailsForm input[type="text"] {
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.suggestionsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionsList li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.suggestionsList li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Botones de formulario */
+.formButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Botones de aceptar y cancelar */
+.acceptButton {
+  background-color: #2f3b52;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 120px;
+}
+
+.acceptButton:hover {
+  background-color: #ff5f57;
+  transform: scale(1.05);
+}
+
+.cancelButton {
+  background-color: #e04e4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 120px;
+}
+
+.cancelButton:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+
+.confirmButton {
+  background-color: #2f3b52;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #27ae60;
+}
+
+.saveChangesButton {
+  background-color: #3b4a68;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveChangesButton:hover {
+  background-color: #3498db;
+}
+
+/* Mensajes de confirmación */
+.selectedResidentInfo p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
