@@ -16,3 +16,6 @@ C:\directorio\tic-gestion-cliente\servidor> npm install
 C:\directorio\tic-gestion-cliente\cliente> npm start
 8. Iniciar el proyecto en servidor:
 C:\directorio\tic-gestion-cliente\servidor> npm run dev
+9. Para utilizar el subsistema de gestión de cliente las credenciales son:
+nombre de usuario: admin
+contraseña: admin
