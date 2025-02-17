@@ -39,8 +39,10 @@ const loginResidente = (req, res) => {
       ID: residente.ID,
       nombre: residente.nombre,
       apellido: residente.apellido,
+      nombreUsuario: residente.nombreUsuario,
       email: residente.email,
       teléfono: residente.teléfono,
+      tipo: residente.tipo,
     },
   });
 };
